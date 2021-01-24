@@ -1,0 +1,155 @@
+/*general*/
+p 
+{
+    text-align: justify;
+}
+
+body 
+{
+    background-image:  url("img/fondo.jpg");
+}
+
+/*imagen 3*/
+#imagen
+{
+    overflow: hidden;
+    display: block;
+}
+figure 
+{
+    margin-top: 32px;
+    margin-left: 10%;
+    background-size: 100%;
+    text-align: center;
+}
+img 
+{
+    border: solid 3px grey;
+    margin: auto;
+    display: block;
+}
+
+figcaption 
+{
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+/*tabla*/
+table 
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    border-collapse:collapse;
+    border-spacing: 10px;
+    
+}
+td
+{
+    padding: 10px;
+}
+#fila_titulo 
+{
+    background-color:#223A5E;
+    color:white;
+}
+#fila_par 
+{
+    background-color: #D49F75;
+}
+#fila_impar 
+{
+    background-color:#C48F65;
+}
+
+/*enlaces*/
+a
+{
+    text-decoration: none;
+    color: #F6D155;
+}
+a:focus, a:hover 
+{
+    border-bottom: 1px solid;
+}
+
+/*cabeza de pagina*/
+#cabeza
+{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+    color:white;
+    border-top: grey 5px solid;
+    background-color: #223A5E;
+    font-family: "versalita";
+    font-weight: bold;
+}
+#cabeza::first-letter
+{
+    font-size: 24px;
+}
+
+/*panel izquierdo*/
+#panel
+{
+    margin-top: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 15%;
+    color:white;
+    background-color: #223A5E;
+}
+legend
+{
+    text-align: center;
+}
+
+/*cuerpo*/
+#cuerpo
+{
+    margin-left: 20%;
+    margin-right: 15%;
+}
+
+    /*titulos*/
+    #introduccion
+    {
+        color: brown;
+        border-bottom: red 1px solid;
+    }
+    
+    #arquitectura
+    {
+        color: brown;
+        border-bottom: red 1px solid;
+        font-style: italic;
+    }
+
+    #pabellones
+    {
+        color: brown;
+        border-bottom: red 1px solid;
+        font-style: italic;
+    }
+
+    #seguridad
+    {
+        color: brown;
+        border-bottom: red 1px solid;
+        font-style: italic;
+    }
+
+
+/*pie de pagina*/
+#pie
+{
+    border-top: grey 5px solid;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+    background-color: #223A5E;
+    color:white;
+}
